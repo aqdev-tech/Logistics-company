@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power, Drive & Deliver</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Power, Drive & Deliver</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="generators.html" class="hover:underline">Generators</a>
+        <a href="autos.html" class="hover:underline">Autos</a>
+        <a href="logistics.html" class="hover:underline">Logistics</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('assets/images/hero.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white">
+      <h1 class="text-4xl md:text-6xl font-bold">Your One-Stop Solution</h1>
+      <p class="mt-4 text-lg">Generators, Autos, and Logistics—All in One Place</p>
+      <div class="mt-6">
+        <a href="generators.html" class="px-6 py-3 bg-blue-600 rounded-md text-white hover:bg-blue-700">Explore Generators</a>
+        <a href="autos.html" class="ml-4 px-6 py-3 bg-indigo-600 rounded-md text-white hover:bg-indigo-700">Browse Cars</a>
+        <a href="logistics.html" class="ml-4 px-6 py-3 bg-purple-600 rounded-md text-white hover:bg-purple-700">Logistics Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Service: Generators -->
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <i class="fa-solid fa-bolt text-4xl text-blue-500"></i>
+        <h3 class="text-xl font-bold mt-4">Generators</h3>
+        <p class="mt-2 text-gray-600">Reliable power solutions for homes, businesses, and industries.</p>
+        <a href="generators.html" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+      </div>
+      <!-- Service: Autos -->
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <i class="fa-solid fa-car text-4xl text-indigo-500"></i>
+        <h3 class="text-xl font-bold mt-4">Autos</h3>
+        <p class="mt-2 text-gray-600">Premium cars with unbeatable quality and affordability.</p>
+        <a href="autos.html" class="mt-4 inline-block text-indigo-600 hover:underline">Learn More</a>
+      </div>
+      <!-- Service: Logistics -->
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <i class="fa-solid fa-truck text-4xl text-purple-500"></i>
+        <h3 class="text-xl font-bold mt-4">Logistics</h3>
+        <p class="mt-2 text-gray-600">Efficient and reliable logistics solutions tailored to your needs.</p>
+        <a href="logistics.html" class="mt-4 inline-block text-purple-600 hover:underline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Power, Drive & Deliver. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

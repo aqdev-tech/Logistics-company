@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autos - Power, Drive & Deliver</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-700 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Power, Drive & Deliver</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="generators.html" class="hover:underline">Generators</a>
+        <a href="autos.html" class="hover:underline">Autos</a>
+        <a href="logistics.html" class="hover:underline">Logistics</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-64" style="background-image: url('assets/images/autos.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+      <h1 class="text-4xl font-bold text-white">Autos</h1>
+    </div>
+  </section>
+
+  <!-- Cars List -->
+  <section class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Explore Our Cars</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <img src="assets/images/car1.jpg" alt="Car 1" class="w-full h-40 object-cover rounded-md">
+        <h3 class="text-xl font-bold mt-4">2024 Tesla Model X</h3>
+        <p class="mt-2 text-gray-600">Electric SUV with advanced technology and top-tier safety.</p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</button>
+      </div>
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <img src="assets/images/car2.jpg" alt="Car 2" class="w-full h-40 object-cover rounded-md">
+        <h3 class="text-xl font-bold mt-4">2023 Toyota Corolla</h3>
+        <p class="mt-2 text-gray-600">Reliable and fuel-efficient sedan for everyday use.</p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</button>
+      </div>
+      <div class="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl">
+        <img src="assets/images/car3.jpg" alt="Car 3" class="w-full h-40 object-cover rounded-md">
+        <h3 class="text-xl font-bold mt-4">2024 BMW X7</h3>
+        <p class="mt-2 text-gray-600">Luxury SUV combining elegance and performance.</p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Power, Drive & Deliver. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
